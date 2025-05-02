@@ -21,55 +21,55 @@
     </script>
     <style>
         .hero {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('http://speservicios.com/wp-content/uploads/2020/09/imagenhomefinal.png');
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/background-title.png');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
         }
-        
+
         .service-card:hover {
             transform: translateY(-10px);
             box-shadow: 0 20px 25px -5px rgba(183, 28, 28, 0.1), 0 10px 10px -5px rgba(183, 28, 28, 0.04);
         }
-        
+
         .stats-item {
             transition: all 0.3s ease;
         }
-        
+
         .stats-item:hover {
             transform: scale(1.05);
         }
-        
+
         .btn-primary {
             background-color: #b71c1c;
             color: white;
         }
-        
+
         .btn-primary:hover {
             background-color: #d32f2f;
         }
-        
+
         .btn-accent {
             background-color: #ffd700;
             color: #b71c1c;
         }
-        
+
         .btn-accent:hover {
             background-color: #ffc400;
         }
-        
+
         .language-selector {
             position: relative;
             display: inline-block;
         }
-        
+
         .language-flag {
             width: 24px;
             height: 24px;
             border-radius: 50%;
             object-fit: cover;
         }
-        
+
         .language-dropdown {
             display: none;
             position: absolute;
@@ -80,11 +80,11 @@
             z-index: 1;
             border-radius: 4px;
         }
-        
+
         .language-selector:hover .language-dropdown {
             display: block;
         }
-        
+
         .language-option {
             padding: 8px 12px;
             display: flex;
@@ -93,7 +93,7 @@
             color: #333;
             text-decoration: none;
         }
-        
+
         .language-option:hover {
             background-color: #f1f1f1;
         }
@@ -107,7 +107,7 @@
                 <div class="flex items-center space-x-4">
                     <div>
                         <a href="#" class="flex items-center py-2 px-2">
-                            <img src="http://speservicios.com/wp-content/uploads/2020/09/logopng.png" alt="SPE Servicios Logo" class="h-16 w-auto mr-2">
+                            <img src="../img/logo.png" alt="SPE Servicios Logo" class="h-16 w-auto mr-2">
                         </a>
                     </div>
                 </div>
@@ -117,7 +117,7 @@
                     <a href="#about" class="py-2 px-3 hover:text-accent transition duration-300" data-i18n="nav.about">Nosotros</a>
                     <a href="#clients" class="py-2 px-3 hover:text-accent transition duration-300" data-i18n="nav.clients">Clientes</a>
                     <a href="#contact" class="py-2 px-3 bg-accent text-primary rounded-md hover:bg-yellow-400 transition duration-300" data-i18n="nav.contact">Contacto</a>
-                    
+
                     <!-- Language Selector -->
                     <div class="language-selector ml-4">
                         <button class="flex items-center gap-2 py-2 px-3 hover:text-accent transition duration-300">
@@ -173,7 +173,7 @@
     <!-- Hero Section -->
     <section id="home" class="hero min-h-screen flex items-center justify-center text-white">
         <div class="container mx-auto px-6 text-center">
-            <div class="flex justify-center"><img src="http://speservicios.com/wp-content/uploads/2020/09/logopng.png" alt="SPE Servicios Logo" class="h-34 mr-80"></div>
+            <div class="flex justify-center"><img src="../img/logo.png" alt="SPE Servicios Logo" class="h-34 mr-80"></div>
             <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto" data-i18n="hero.subtitle">Soluciones integrales para la industria petrolera con más de 20 años de experiencia en el mercado</p>
             <div class="flex flex-col md:flex-row justify-center gap-4">
                 <a href="#contact" class="bg-accent text-primary font-bold py-3 px-8 rounded-md hover:bg-yellow-400 transition duration-300" data-i18n="hero.cta1">Contacto</a>
@@ -218,7 +218,7 @@
                 <div class="w-24 h-1 bg-accent mx-auto mb-6"></div>
                 <p class="text-gray-600 max-w-2xl mx-auto" data-i18n="services.subtitle">Ofrecemos soluciones especializadas para la industria petrolera con los más altos estándares de calidad y seguridad.</p>
             </div>
-            
+
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Service 1 -->
                 <div class="service-card bg-gray-50 p-8 rounded-lg shadow-md transition duration-300">
@@ -234,7 +234,7 @@
                     </ul>
                     <a href="#" class="text-primary font-semibold hover:text-secondary transition duration-300" data-i18n="services.more">Más información <i class="fas fa-arrow-right ml-1"></i></a>
                 </div>
-                
+
                 <!-- Service 2 -->
                 <div class="service-card bg-gray-50 p-8 rounded-lg shadow-md transition duration-300">
                     <div class="text-accent text-4xl mb-4">
@@ -249,7 +249,7 @@
                     </ul>
                     <a href="#" class="text-primary font-semibold hover:text-secondary transition duration-300" data-i18n="services.more">Más información <i class="fas fa-arrow-right ml-1"></i></a>
                 </div>
-                
+
                 <!-- Service 3 -->
                 <div class="service-card bg-gray-50 p-8 rounded-lg shadow-md transition duration-300">
                     <div class="text-accent text-4xl mb-4">
@@ -264,7 +264,7 @@
                     </ul>
                     <a href="#" class="text-primary font-semibold hover:text-secondary transition duration-300" data-i18n="services.more">Más información <i class="fas fa-arrow-right ml-1"></i></a>
                 </div>
-                
+
                 <!-- Service 4 -->
                 <div class="service-card bg-gray-50 p-8 rounded-lg shadow-md transition duration-300">
                     <div class="text-accent text-4xl mb-4">
@@ -279,7 +279,7 @@
                     </ul>
                     <a href="#" class="text-primary font-semibold hover:text-secondary transition duration-300" data-i18n="services.more">Más información <i class="fas fa-arrow-right ml-1"></i></a>
                 </div>
-                
+
                 <!-- Service 5 -->
                 <div class="service-card bg-gray-50 p-8 rounded-lg shadow-md transition duration-300">
                     <div class="text-accent text-4xl mb-4">
@@ -294,7 +294,7 @@
                     </ul>
                     <a href="#" class="text-primary font-semibold hover:text-secondary transition duration-300" data-i18n="services.more">Más información <i class="fas fa-arrow-right ml-1"></i></a>
                 </div>
-                
+
                 <!-- Service 6 -->
                 <div class="service-card bg-gray-50 p-8 rounded-lg shadow-md transition duration-300">
                     <div class="text-accent text-4xl mb-4">
@@ -325,7 +325,7 @@
                     <div class="w-24 h-1 bg-accent mb-6"></div>
                     <p class="text-gray-600 mb-6" data-i18n="about.paragraph1">SPE S.R.L. es una empresa argentina que comenzó sus actividades en el año 2004 y surge de la transformación de Demetrio Celedonio Aguirre unipersonal (SP 1998), a una Sociedad de Responsabilidad Limitada.</p>
                     <p class="text-gray-600 mb-8" data-i18n="about.paragraph2">Desarrollamos nuestras actividades en el campo petrolero, ofreciendo diversos servicios especializados con más de 20 años de experiencia en el rubro.</p>
-                    
+
                     <div class="space-y-4">
                         <div class="flex items-start">
                             <div class="text-accent mr-4 mt-1">
@@ -355,12 +355,12 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="mt-8">
                         <h4 class="font-bold text-primary mb-2" data-i18n="about.infrastructure.title">Nuestra Infraestructura</h4>
                         <p class="text-gray-600" data-i18n="about.infrastructure.text">Contamos con la infraestructura necesaria para el desarrollo de las tareas de campo y gabinete, lo que nos permite llegar a soluciones prácticas con costos y plazos razonables.</p>
                     </div>
-                    
+
                     <div class="mt-8">
                         <h4 class="font-bold text-primary mb-2" data-i18n="about.methodology.title">Nuestra Metodología</h4>
                         <p class="text-gray-600" data-i18n="about.methodology.text">Para el cumplimiento de nuestros trabajos desarrollamos metodologías propias e internacionales aplicadas por nuestros profesionales, basadas en experiencia y apoyadas en investigaciones y trabajos relacionados tanto en el país como en el extranjero.</p>
@@ -378,7 +378,7 @@
                 <div class="w-24 h-1 bg-accent mx-auto mb-6"></div>
                 <p class="text-gray-600 max-w-2xl mx-auto" data-i18n="clients.subtitle">Trabajamos con las principales empresas del sector petrolero en Argentina y la región.</p>
             </div>
-            
+
             <div class="grid grid-cols-2 md:grid-cols-4 gap-8 items-center">
                 <div class="flex justify-center">
                     <img src="https://via.placeholder.com/150x80?text=YPF" alt="YPF Logo" class="h-16 opacity-70 hover:opacity-100 transition duration-300">
@@ -405,7 +405,7 @@
                     <img src="https://via.placeholder.com/150x80?text=Weatherford" alt="Weatherford Logo" class="h-16 opacity-70 hover:opacity-100 transition duration-300">
                 </div>
             </div>
-            
+
             <div class="mt-16 bg-primary rounded-lg p-8 md:p-12 text-white">
                 <div class="flex flex-col md:flex-row items-center">
                     <div class="md:w-2/3 mb-8 md:mb-0 md:pr-8">
@@ -428,7 +428,7 @@
                 <div class="w-24 h-1 bg-accent mx-auto mb-6"></div>
                 <p class="text-gray-600 max-w-2xl mx-auto" data-i18n="testimonials.subtitle">Lo que dicen nuestros clientes sobre nuestros servicios.</p>
             </div>
-            
+
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div class="bg-white p-8 rounded-lg shadow-md">
                     <div class="flex items-center mb-4">
@@ -445,7 +445,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="bg-white p-8 rounded-lg shadow-md">
                     <div class="flex items-center mb-4">
                         <div class="text-accent text-2xl mr-2">
@@ -461,7 +461,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="bg-white p-8 rounded-lg shadow-md">
                     <div class="flex items-center mb-4">
                         <div class="text-accent text-2xl mr-2">
@@ -489,12 +489,12 @@
                 <div class="w-24 h-1 bg-accent mx-auto mb-6"></div>
                 <p class="text-gray-600 max-w-2xl mx-auto" data-i18n="contact.subtitle">Contáctenos para discutir sus necesidades de herramientas de pesca y servicios petroleros o solicitar una cotización.</p>
             </div>
-            
+
             <div class="flex flex-col lg:flex-row">
                 <div class="lg:w-1/2 mb-12 lg:mb-0 lg:pr-12">
                     <div class="bg-gray-100 p-8 rounded-lg">
                         <h3 class="text-xl font-bold text-primary mb-6" data-i18n="contact.info.title">Información de Contacto</h3>
-                        
+
                         <div class="space-y-6">
                             <div class="flex items-start">
                                 <div class="text-accent mr-4 mt-1">
@@ -505,7 +505,7 @@
                                     <p class="text-gray-600" data-i18n="contact.info.address.text">Acc. Sur. Lateral Este 5385 - Lujan de Cuyo, Mendoza</p>
                                 </div>
                             </div>
-                            
+
                             <div class="flex items-start">
                                 <div class="text-accent mr-4 mt-1">
                                     <i class="fas fa-phone-alt text-2xl"></i>
@@ -516,7 +516,7 @@
                                     <p class="text-gray-600" data-i18n="contact.info.phone.emergency">Emergencias 24/7: +54 297111111</p>
                                 </div>
                             </div>
-                            
+
                             <div class="flex items-start">
                                 <div class="text-accent mr-4 mt-1">
                                     <i class="fas fa-envelope text-2xl"></i>
@@ -527,7 +527,7 @@
                                     <p class="text-gray-600">ventas@speservicios.com</p>
                                 </div>
                             </div>
-                            
+
                             <div class="flex items-start">
                                 <div class="text-accent mr-4 mt-1">
                                     <i class="fas fa-clock text-2xl"></i>
@@ -539,7 +539,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="mt-8">
                             <h3 class="text-xl font-bold text-primary mb-4" data-i18n="contact.social.title">Síganos</h3>
                             <div class="flex space-x-4">
@@ -559,7 +559,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="lg:w-1/2">
                     <div class="bg-gray-100 p-8 rounded-lg">
                         <h3 class="text-xl font-bold text-primary mb-6" data-i18n="contact.form.title">Envíenos un Mensaje</h3>
@@ -673,57 +673,57 @@
                 "nav.clients": "Clients",
                 "nav.contact": "Contact",
                 "nav.language": "EN",
-                
+
                 "hero.title": "Experts in Oil Fishing Tools",
                 "hero.subtitle": "Comprehensive solutions for the oil industry with over 20 years of market experience",
                 "hero.cta1": "Contact",
                 "hero.cta2": "Our Services",
-                
+
                 "stats.years": "Years of Experience",
                 "stats.quality": "Commitment to Quality",
                 "stats.projects": "Mendoza - Chubut - Neuquen",
                 "stats.support": "Technical Support",
-                
+
                 "services.title": "Our Services",
                 "services.subtitle": "We offer specialized solutions for the oil industry with the highest standards of quality and safety.",
                 "services.more": "Learn more",
-                
+
                 "services.1.title": "Fishing Tools",
                 "services.1.description": "Rental and sale of specialized tools for well completion, repair and pulling operations.",
                 "services.1.item1": "Fishing tools",
                 "services.1.item2": "Workover equipment",
                 "services.1.item3": "Custom solutions",
-                
+
                 "services.2.title": "Specialized Manufacturing",
                 "services.2.description": "Design and construction of special tools and equipment for the oil industry.",
                 "services.2.item1": "Sand separator pumps",
                 "services.2.item2": "Production filters",
                 "services.2.item3": "Custom tools",
-                
+
                 "services.3.title": "Field Services",
                 "services.3.description": "Specialized field operations for well maintenance and repair.",
                 "services.3.item1": "Casing slotting",
                 "services.3.item2": "Pipe perforation",
                 "services.3.item3": "Pulling operations",
-                
+
                 "services.4.title": "Technical Advisory",
                 "services.4.description": "Specialized consulting to solve the most complex challenges in oil operations.",
                 "services.4.item1": "Problem analysis",
                 "services.4.item2": "Technical solutions",
                 "services.4.item3": "Process optimization",
-                
+
                 "services.5.title": "Workover Equipment",
                 "services.5.description": "Commercialization of specialized equipment for workover and pulling operations.",
                 "services.5.item1": "New equipment",
                 "services.5.item2": "Refurbished equipment",
                 "services.5.item3": "Original spare parts",
-                
+
                 "services.6.title": "Logistics and Storage",
                 "services.6.description": "Logistics and storage services for oil tools and equipment.",
                 "services.6.item1": "Secure storage",
                 "services.6.item2": "Specialized transport",
                 "services.6.item3": "Inventory management",
-                
+
                 "about.title": "SPE S.R.L. - Our History",
                 "about.paragraph1": "SPE S.R.L. is an Argentine company that began its activities in 2004 and arises from the transformation of Demetrio Celedonio Aguirre sole proprietorship (SP 1998) into a Limited Liability Company.",
                 "about.paragraph2": "We develop our activities in the oil field, offering various specialized services with more than 20 years of experience in the industry.",
@@ -737,13 +737,13 @@
                 "about.infrastructure.text": "We have the necessary infrastructure for the development of field and office tasks, which allows us to reach practical solutions with reasonable costs and deadlines.",
                 "about.methodology.title": "Our Methodology",
                 "about.methodology.text": "For the fulfillment of our work we develop our own and international methodologies applied by our professionals, based on experience and supported by research and related work both in the country and abroad.",
-                
+
                 "clients.title": "Our Clients",
                 "clients.subtitle": "We work with the main companies in the oil sector in Argentina and the region.",
                 "clients.cta.title": "Ready to work with us?",
                 "clients.cta.text": "Join our list of satisfied clients who trust SPE S.R.L. for their fishing tools and oil services needs.",
                 "clients.cta.button": "Contact Us",
-                
+
                 "testimonials.title": "Testimonials",
                 "testimonials.subtitle": "What our clients say about our services.",
                 "testimonials.1.text": "\"SPE S.R.L. has provided us with excellent quality fishing tools and their technical service is impeccable. They solved a complex problem in one of our wells in record time.\"",
@@ -755,7 +755,7 @@
                 "testimonials.3.text": "\"The manufacturing of sand separator pumps that SPE S.R.L. made for us exceeded our expectations. Their ability to develop custom solutions is truly valuable for our operation.\"",
                 "testimonials.3.name": "Dr. Luis Fernández",
                 "testimonials.3.position": "Technical Director",
-                
+
                 "contact.title": "Contact",
                 "contact.subtitle": "Contact us to discuss your fishing tools and oil services needs or to request a quote.",
                 "contact.info.title": "Contact Information",
@@ -778,7 +778,7 @@
                 "contact.form.service.other": "Other",
                 "contact.form.message": "Message",
                 "contact.form.submit": "Send Message",
-                
+
                 "footer.about": "SPE S.R.L. - Specialized oil solutions since 2004.",
                 "footer.links.title": "Quick Links",
                 "footer.services.title": "Services",
@@ -797,57 +797,57 @@
                 "nav.clients": "Clientes",
                 "nav.contact": "Contacto",
                 "nav.language": "ES",
-                
+
                 "hero.title": "S.P.E. SRL",
                 "hero.subtitle": "Soluciones integrales para la industria petrolera con más de 20 años de experiencia en el mercado",
                 "hero.cta1": "Contacto",
                 "hero.cta2": "Nuestros Servicios",
-                
+
                 "stats.years": "Años de Experiencia",
                 "stats.quality": "Compromiso con la Calidad",
                 "stats.projects": "Mendoza - Chubut - Neuquen",
                 "stats.support": "Soporte Técnico",
-                
+
                 "services.title": "Nuestros Servicios",
                 "services.subtitle": "Ofrecemos soluciones especializadas para la industria petrolera con los más altos estándares de calidad y seguridad.",
                 "services.more": "Más información",
-                
+
                 "services.1.title": "Herramientas de Pesca",
                 "services.1.description": "Alquiler y venta de herramientas especializadas para terminación, reparación y pulling de pozos petroleros.",
                 "services.1.item1": "Herramientas para pesca",
                 "services.1.item2": "Equipos de workover",
                 "services.1.item3": "Soluciones personalizadas",
-                
+
                 "services.2.title": "Fabricación Especializada",
                 "services.2.description": "Diseño y construcción de herramientas y equipos especiales para la industria petrolera.",
                 "services.2.item1": "Bombas desarenadoras",
                 "services.2.item2": "Filtros de producción",
                 "services.2.item3": "Herramientas a medida",
-                
+
                 "services.3.title": "Servicios de Campo",
                 "services.3.description": "Operaciones especializadas en campo para mantenimiento y reparación de pozos.",
                 "services.3.item1": "Ranurado de casing",
                 "services.3.item2": "Perforado de tuberías",
                 "services.3.item3": "Operaciones de pulling",
-                
+
                 "services.4.title": "Asesoramiento Técnico",
                 "services.4.description": "Consultoría especializada para resolver los desafíos más complejos en operaciones petroleras.",
                 "services.4.item1": "Análisis de problemas",
                 "services.4.item2": "Soluciones técnicas",
                 "services.4.item3": "Optimización de procesos",
-                
+
                 "services.5.title": "Equipos de Workover",
                 "services.5.description": "Comercialización de equipos especializados para operaciones de workover y pulling.",
                 "services.5.item1": "Equipos nuevos",
                 "services.5.item2": "Equipos reacondicionados",
                 "services.5.item3": "Repuestos originales",
-                
+
                 "services.6.title": "Logística y Almacenamiento",
                 "services.6.description": "Servicios logísticos y de almacenamiento para herramientas y equipos petroleros.",
                 "services.6.item1": "Almacenamiento seguro",
                 "services.6.item2": "Transporte especializado",
                 "services.6.item3": "Gestión de inventario",
-                
+
                 "about.title": "SPE S.R.L. - Nuestra Historia",
                 "about.paragraph1": "SPE S.R.L. es una empresa argentina que comenzó sus actividades en el año 2004 y surge de la transformación de Demetrio Celedonio Aguirre unipersonal (SP 1998), a una Sociedad de Responsabilidad Limitada.",
                 "about.paragraph2": "Desarrollamos nuestras actividades en el campo petrolero, ofreciendo diversos servicios especializados con más de 20 años de experiencia en el rubro.",
@@ -861,13 +861,13 @@
                 "about.infrastructure.text": "Contamos con la infraestructura necesaria para el desarrollo de las tareas de campo y gabinete, lo que nos permite llegar a soluciones prácticas con costos y plazos razonables.",
                 "about.methodology.title": "Nuestra Metodología",
                 "about.methodology.text": "Para el cumplimiento de nuestros trabajos desarrollamos metodologías propias e internacionales aplicadas por nuestros profesionales, basadas en experiencia y apoyadas en investigaciones y trabajos relacionados tanto en el país como en el extranjero.",
-                
+
                 "clients.title": "Nuestros Clientes",
                 "clients.subtitle": "Trabajamos con las principales empresas del sector petrolero en Argentina y la región.",
                 "clients.cta.title": "¿Listo para trabajar con nosotros?",
                 "clients.cta.text": "Únase a nuestra lista de clientes satisfechos que confían en SPE S.R.L. para sus necesidades de herramientas de pesca y servicios petroleros.",
                 "clients.cta.button": "Contactenos",
-                
+
                 "testimonials.title": "Testimonios",
                 "testimonials.subtitle": "Lo que dicen nuestros clientes sobre nuestros servicios.",
                 "testimonials.1.text": "\"SPE S.R.L. nos ha provisto de herramientas de pesca de excelente calidad y su servicio técnico es impecable. Resolvieron un problema complejo en uno de nuestros pozos en tiempo récord.\"",
@@ -879,7 +879,7 @@
                 "testimonials.3.text": "\"La fabricación de bombas desarenadoras que nos realizó SPE S.R.L. superó nuestras expectativas. Su capacidad para desarrollar soluciones a medida es realmente valiosa para nuestra operación.\"",
                 "testimonials.3.name": "Dr. Luis Fernández",
                 "testimonials.3.position": "Director Técnico",
-                
+
                 "contact.title": "Contacto",
                 "contact.subtitle": "Contáctenos para discutir sus necesidades de herramientas de pesca y servicios petroleros o solicitar una cotización.",
                 "contact.info.title": "Información de Contacto",
@@ -902,7 +902,7 @@
                 "contact.form.service.other": "Otro",
                 "contact.form.message": "Mensaje",
                 "contact.form.submit": "Enviar Mensaje",
-                
+
                 "footer.about": "SPE S.R.L. - Soluciones petroleras especializadas desde 2004.",
                 "footer.links.title": "Enlaces Rápidos",
                 "footer.services.title": "Servicios",
@@ -922,7 +922,7 @@
         // Function to change language
         function changeLanguage(lang) {
             currentLang = lang;
-            
+
             // Update all elements with data-i18n attribute
             document.querySelectorAll('[data-i18n]').forEach(element => {
                 const key = element.getAttribute('data-i18n');
@@ -936,7 +936,7 @@
                     }
                 }
             });
-            
+
             // Update language selector display
             const langDisplay = document.querySelector('.language-selector span[data-i18n="nav.language"]');
             if (lang === 'es') {
@@ -944,7 +944,7 @@
             } else {
                 langDisplay.textContent = 'EN';
             }
-            
+
             // Store preference in localStorage
             localStorage.setItem('preferredLang', lang);
         }
@@ -968,32 +968,32 @@
         // Mobile menu toggle
         const mobileMenuButton = document.querySelector('.mobile-menu-button');
         const mobileMenu = document.querySelector('.mobile-menu');
-        
+
         mobileMenuButton.addEventListener('click', () => {
             mobileMenu.classList.toggle('hidden');
         });
-        
+
         // Smooth scrolling for navigation links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
-                
+
                 const targetId = this.getAttribute('href');
                 const targetElement = document.querySelector(targetId);
-                
+
                 window.scrollTo({
                     top: targetElement.offsetTop - 80,
                     behavior: 'smooth'
                 });
-                
+
                 // Close mobile menu if open
                 mobileMenu.classList.add('hidden');
             });
         });
-        
+
         // Back to top button
         const backToTopButton = document.getElementById('backToTop');
-        
+
         window.addEventListener('scroll', () => {
             if (window.pageYOffset > 300) {
                 backToTopButton.classList.remove('opacity-0', 'invisible');
@@ -1003,38 +1003,38 @@
                 backToTopButton.classList.add('opacity-0', 'invisible');
             }
         });
-        
+
         backToTopButton.addEventListener('click', () => {
             window.scrollTo({
                 top: 0,
                 behavior: 'smooth'
             });
         });
-        
+
         // Form submission
         const contactForm = document.getElementById('contactForm');
-        
+
         contactForm.addEventListener('submit', (e) => {
             e.preventDefault();
-            
+
             // Here you would typically send the form data to your server
             // For this example, we'll just show an alert
             alert(currentLang === 'es' ? '¡Gracias por su mensaje! Nos pondremos en contacto con usted a la brevedad.' : 'Thank you for your message! We will contact you shortly.');
             contactForm.reset();
         });
-        
+
         // Language selector event listeners
         document.querySelectorAll('[data-lang]').forEach(button => {
             button.addEventListener('click', (e) => {
                 e.preventDefault();
                 const lang = button.getAttribute('data-lang');
                 changeLanguage(lang);
-                
+
                 // Close mobile menu if open
                 mobileMenu.classList.add('hidden');
             });
         });
-        
+
         // Initialize the page
         document.addEventListener('DOMContentLoaded', () => {
             initLanguage();
